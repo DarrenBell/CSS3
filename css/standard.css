@@ -1,0 +1,13 @@
+html {
+	height: 100%;
+}
+body {
+	background-color: #666;
+	color: #fff;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(#666));
+	background-image: -webkit-linear-gradient(#000, #666);
+	background-image: -moz-linear-gradient(#000, #666);
+	background-image: -o-linear-gradient(#000, #666);
+	background-image: linear-gradient(#000, #666);
+	height: 100%;
+}
