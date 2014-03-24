@@ -17,6 +17,10 @@ body {
 	margin: 0 auto;
 	max-width: 960px;
 }
+p {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
 h1 {
 	font-size: 250%;
 	color: #fff;
@@ -26,5 +30,11 @@ h1 {
 	background-color: #fff;
 	color: #000;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 10px 0 10px 0; /* Can be specified as a pixel value or percent value, 100% equals a circle.  You can also define individual values of each corner to create different effects and corners. (TL, TR, BL, BR) */
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 10px 0px 10px 0;
+	background-color: rgba(255, 255, 255, 0.8); /* Can also be done using opacity (0 through to 1) & HSLA (Hue, Saturation, Lightness and Alpha) */
+	box-shadow: 3px 3px 9px 0 #3D9AD1; /* First value is horizontal offset, second value is vertical offset, third value is blur radius, fourth value is the spread, fifth is the color which can be RGBA or hex */
+	-webkit-box-shadow: 3px 3px 9px 0 #3D9AD1;
 }
