@@ -67,3 +67,11 @@ a:hover {
 	box-shadow: 2px 2px 1px #5B3D45;
 	color: #FFF;
 }
+pre {
+	word-break: keep-all;  
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: -moz-pre-wrap;
+	white-space: pre-wrap;
+	white-space: pre\9; 
+}
