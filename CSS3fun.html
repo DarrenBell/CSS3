@@ -12,19 +12,35 @@
 		<h2>Border Radius</h2>
 		<div class="border-radius">
 			<p>The <strong>border-radius</strong> propety is used to create rounded corners.  It has 4 values which define each corner, top left, top right, bottom right and bottom left.  A good resource on border-radius can be found over at <a href="http://www.css3.info/preview/rounded-border/">css info.</a></p>
+			<p>Example: <pre><code>border-radius: 5px (top left) 5px (top right) 5px (bottom right) 5px (bottom left);</code></pre></p>
 		</div>
 		<h2>Box Shadow</h2>
 		<div class="box-shadow">
 			<p>The <strong>box-shadow</strong> property is used to create a drop shadow effect.  It has 5 values - horizontal length, vertical length, blur radius, spread radius and finally the color.  You can also set the opacity using rgba (0,0,0,X) where the X is the value for opacity between 0 and 1.  You can also inset the box shadow using the inset value followed by the other values. A more in depth article can be found <a href="http://www.css3.info/preview/box-shadow/">here.</a> This gives the box a 3d effect.</p> 
+			<p>Example:
+				<pre><code>box-shadow: 5px (horizontal length) 5px (vertical length) <br />5px (blur radius) 5px (spread radius) #000 (color);</code></pre></p> 
 		</div>
 		<h2>Both combined</h2>
 		<div class="radius-shadow">
+		<br />
 			<p>Both selectors can be combined.  This is an example of that.</p>
+			<p><pre><code>
+			.radius-shadow {
+			background: #FFFFFF;
+			box-shadow: 5px 5px 10px #000;
+			border-radius: 50px 50px 0 50px;
+			border: 3px solid #000;
+			}</code></pre></p>
 		</div>
 		<h2>CSS3 Backgrounds</h2>
 		<div class="css3background">
 			<p>CSS3 has new background properties, such as background-size and background-origin.  Background-size specifies the size of a background image.  This size can be specified in percent or pixels.  The background-origin property specifies the positioning area of the background images.  The background image can be placed within the content-box, padding-box or border-box area.</p>
-			<p>CSS3 also allows for multiple background images to be used. background: url(image1.png), url(image2.png);</p>
+			<p>CSS3 also allows for multiple background images to be used.</p>
+			<p>Example: <pre><code>background: url(image1.png), url(image2.png);</code></pre></p>
+		</div>
+		<div class="css3gradient">
+			<p>CSS3 Gradients are now possible with CSS3, previously an image would be used for this effect.  There are two types of gradients, linear (up, down, left, right and diagonal) and radial (defined by their center).  You must specify at least two color stops for a gradient.</p>
+			<p>Example: <pre><code>background: linear-gradient(direction or angle), color-stop1, color-stop 2, ...);</code></pre></p>
 		</div>
 </div>
 </body>
