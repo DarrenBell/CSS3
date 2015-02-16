@@ -44,6 +44,12 @@ p {
 	border-radius: 50px 50px 0 50px;
 	border: 3px solid #000;
 }
+.css3background {
+	background: url(../gradientbg.png) no-repeat;
+	background-size: 100% 100%;
+	background-origin: content-box;
+	border: 1px dashed white;
+}
 a {
 	color: #06f;
 	text-decoration: none;
